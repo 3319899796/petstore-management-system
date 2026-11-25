@@ -1,0 +1,39 @@
+# ---------- 依赖与构建产物 ----------
+node_modules/
+dist/
+target/
+*.class
+.pnpm-store/
+m2/
+.m2/
+
+# ---------- 本地运行环境（体积大，不入库） ----------
+.runtime/
+mysql-data/
+*.log
+logs/
+upload/
+
+# ---------- 临时与测试产物 ----------
+_tmp/
+*.tmp
+*.bak
+
+# ---------- 论文过程资料（不随代码入库） ----------
+00_定稿快照/
+01_约束/
+02_参考/
+03_历史版本/
+05_废弃/
+
+# ---------- IDE / 系统 ----------
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ---------- 敏感配置 ----------
+.env
+application-local.yml
+application-local.properties
